@@ -28,7 +28,6 @@
 </head>
 
 <body>
-
 <div class="blog-masthead">
 	<div class="container">
         <!--Credits: Thank you : https://github.com/SimonPadbury/b4st-->
@@ -51,6 +50,7 @@
 				?>
 				<?php get_template_part('navbar-search'); ?>
             </div>
+	        <?php get_sidebar(); ?>
         </nav>
 	</div>
 </div>
@@ -62,4 +62,5 @@
 	</div>
 </div>
 
+<div class="container">
 <!--End header.php-->

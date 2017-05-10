@@ -1,8 +1,8 @@
 /*
 Theme Name: Ichcha
-Theme URI: https://ichcha.ga
+Theme URI: http://ichcha.ga
 Author: Santosh J
-Author URI: https://ichcha.ga
+Author URI: http://ichcha.ga
 Description: A subtle Bootstrap 4 Wordpress theme.
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -225,3 +225,10 @@ h6, .h6 {
     margin-left: 0 !important;
 }
 
+.featured-img img{
+    width: 100%;
+    height: auto;
+}
+
+/*
+Sidebar styles*/
