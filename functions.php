@@ -13,3 +13,4 @@ All the functions are in the PHP pages in the `functions/` folder.
 require get_template_directory() . '/functions/navbar.php';
 require get_template_directory() . '/functions/santosh.php';
 require get_template_directory() . '/functions/widgets.php';
+require get_template_directory() . '/functions/customizer.php';

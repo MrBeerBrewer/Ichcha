@@ -9,9 +9,15 @@ get_header('front-page') ?>
 
 <section class="showcase">
 	<div class="container-fluid">
-		<h1 class="blog-title">Ichcha</h1>
-		<p class="lead">A subtle Bootstrap 4 Wordpress theme. </p>
-		<a href="" class="btn btn-primary btn-lg"> Read more </a>
+		<h1 class="blog-title">
+            <?php echo get_theme_mod('showcase_heading', 'Ichcha') ?>
+        </h1>
+		<p class="lead">
+			<?php echo get_theme_mod('showcase_text', 'A subtle Bootstrap 4 Wordpress theme.') ?>
+        </p>
+		<a href="<?php echo get_theme_mod('btn_url', 'http://ichcha.ga') ?>" class="btn btn-primary btn-lg">
+			<?php echo get_theme_mod('btn_text', 'Download') ?>
+        </a>
 	</div>
 </section>
 

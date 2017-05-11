@@ -163,7 +163,6 @@ h6, .h6 {
     color: #999;
 }
 
-
 /*
  * Footer
  */
@@ -172,7 +171,7 @@ h6, .h6 {
     padding: 2.5rem 0;
     color: #fdfdfd;
     text-align: center;
-    background-color: #5d4d2e;
+    background-color: #303030;
     border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
@@ -196,8 +195,6 @@ h6, .h6 {
     margin-top: -55px;
     margin-bottom: 30px;
     color: #ffffff;
-    /*background: url('../imgs/showcase2.jpg') no-repeat center center;*/
-
     border-radius: 0px 0px 14px 14px;
 }
 
@@ -254,7 +251,7 @@ Sidebar styles*/
 Gallery styles*/
 
 .post-gallery{
-  background: #5d4d2e;
+  background: #646464;
     padding: 10px;
     text-align: center;
 }
