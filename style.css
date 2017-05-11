@@ -170,9 +170,9 @@ h6, .h6 {
 
 .blog-footer {
     padding: 2.5rem 0;
-    color: #999;
+    color: #fdfdfd;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #5d4d2e;
     border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
