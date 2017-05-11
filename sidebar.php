@@ -1,5 +1,5 @@
 <div class="container ">
-    <span class="fa fa-caret-square-o-down fa-3x" aria-hidden="true"
+    <span class="dashicons dashicons-menu" aria-hidden="true"
           data-toggle="collapse" data-target="#demo" ></span>
     <div id="demo" class="collapse">
         <div id="sidebar-wrapper"> <!-- Sidebar -->

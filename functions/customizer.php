@@ -75,24 +75,37 @@ function wpb_ichcha_customizer($wp_customize){
 		]
 	));
 
-	//Background
-	/*$wp_customize->add_setting('bgcolor',[
-		'default' => '#4285f4',
-		'transport' => 'refresh'
-	]);
+	// Color picker setting - heading
+	$wp_customize->add_setting( 'heading_color', [
+		'default' => '#2a2a2a'
+	] );
 
-	$wp_customize->add_section('ichcha_color_section',[
-			'title' => __('Color', 'ichcha'),
-			'priority' => 6
-		]);
+	// Color picker control - text color
+	$wp_customize->add_control( new WP_Customize_Color_Control(
+		$wp_customize, 'heading_color', [
+		'label' => 'Heading Color',
+		'section' => 'showcase',
+		'settings' => 'heading_color',
+		'priority' => 6
+	]));
 
-	$wp_customize->add_control(new WP_Customize_Color_Control(
-		$wp_customize, 'theme_colors', [
-			'label' => __('Page color', 'ichcha'),
-			'section' => 'ichcha_color_section',
-			'settings' => 'bgcolor',
-		]
-	));*/
+	// Color picker setting - text color
+	$wp_customize->add_setting( 'text_color', [
+		'default' => '#f0f0f0'
+	] );
+
+	// Color picker control - text color
+	$wp_customize->add_control( new WP_Customize_Color_Control(
+		$wp_customize, 'text_color', [
+		'label' => 'Text Color',
+		'section' => 'showcase',
+		'settings' => 'text_color',
+		'priority' => 7
+	]));
+
+
+
 }
 
 add_action('customize_register', 'wpb_ichcha_customizer');
+
