@@ -18,34 +18,20 @@ get_header('front-page') ?>
 <section class="boxes">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="box">
-					<span class="fa fa-users"></span>
-					<h3>About</h3>
-                    <p class="lead">
-                        Ichcha, a desire. I've had a desire to develop a Wordpress theme.
-                        This is but a mere outcome of desire(Ichcha).
-                    </p>
-				</div>
+			<div class="col-xs-12 col-md-4">
+					<?php if (is_active_sidebar('ichcha_front_page_box1')) : ?>
+						<?php dynamic_sidebar('ichcha_front_page_box1'); ?>
+					<?php endif; ?>
 			</div>
-			<div class="col-md-4">
-				<div class="box">
-					<span class="fa fa-gears"></span>
-					<h3>What next</h3>
-                    <p class="lead">
-                        Keep working towards your desire. Make it a little more
-                        desirable!
-                    </p>
-				</div>
+			<div class="col-xs-12 col-md-4">
+						<?php if (is_active_sidebar('ichcha_front_page_box2')) : ?>
+							<?php dynamic_sidebar('ichcha_front_page_box2'); ?>
+						<?php endif; ?>
 			</div>
-			<div class="col-md-4">
-				<div class="box">
-					<span class="fa fa-search"></span>
-					<h3>Features</h3>
-                    <p class="lead">
-                        A responsive theme, built with love using Bootstrap 4 framework.
-                    </p>
-				</div>
+			<div class="col-xs-12 col-md-4">
+						<?php if (is_active_sidebar('ichcha_front_page_box3')) : ?>
+							<?php dynamic_sidebar('ichcha_front_page_box3'); ?>
+						<?php endif; ?>
 			</div>
 		</div>
 	</div>
