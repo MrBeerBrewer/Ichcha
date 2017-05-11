@@ -74,6 +74,25 @@ function wpb_ichcha_customizer($wp_customize){
 			'priority' => 5
 		]
 	));
+
+	//Background
+	/*$wp_customize->add_setting('bgcolor',[
+		'default' => '#4285f4',
+		'transport' => 'refresh'
+	]);
+
+	$wp_customize->add_section('ichcha_color_section',[
+			'title' => __('Color', 'ichcha'),
+			'priority' => 6
+		]);
+
+	$wp_customize->add_control(new WP_Customize_Color_Control(
+		$wp_customize, 'theme_colors', [
+			'label' => __('Page color', 'ichcha'),
+			'section' => 'ichcha_color_section',
+			'settings' => 'bgcolor',
+		]
+	));*/
 }
 
 add_action('customize_register', 'wpb_ichcha_customizer');

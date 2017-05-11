@@ -23,7 +23,7 @@
 
 <!-- Custom styles for this template -->
 <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
 <?php wp_head() ?>
 </head>
 
